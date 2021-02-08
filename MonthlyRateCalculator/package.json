@@ -1,0 +1,17 @@
+{
+  "name": "calculate-montly-rate",
+  "version": "1.0.0",
+  "description": "Request for calculates monthly rate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Deyan Zgurovski",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1"
+  }
+}

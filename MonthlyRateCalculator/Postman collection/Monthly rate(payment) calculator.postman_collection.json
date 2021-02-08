@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "fcf32655-4998-4cd8-b1b3-d984b8620402",
+		"name": "Monthly rate(payment) calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"downPayments\":1000,\r\n     \"numberOfMonths\":12,\r\n     \"interestRate\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:43033/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "43033",
+					"path": [
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

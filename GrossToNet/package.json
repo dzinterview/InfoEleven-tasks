@@ -1,0 +1,14 @@
+{
+  "name": "grosstonet",
+  "version": "1.0.0",
+  "description": "Gross price to Net price with VAT parameter method",
+  "main": "grossToNet.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Deyan Zgurovski",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
